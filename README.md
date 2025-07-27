@@ -18,14 +18,14 @@ This project demonstrates a basic ROS 2 setup using the `turtlesim` package with
 ```bash
 ros2 run turtlesim turtlesim_node
 ```
-2. **Launch the Teleoperation Node
+2. **Launch the Teleoperation Node**
 
 Open a new terminal and run:
 
 ```bash
 ros2 run turtlesim turtle_teleop_key
 ```
-3. **Control the Turtle
+3. **Control the Turtle**
 
 Use your keyboard:
 
@@ -38,7 +38,8 @@ F → cancel rotation
 Q → quit
 Visualize the ROS Graph
 
-4. **In a third terminal:
+4. **Visualize the ROS Graph**
+5. In a third terminal:
 
 ```bash
 rqt_graph
@@ -46,13 +47,13 @@ rqt_graph
 ---
 
 ## ROS 2 Graph Overview
-**Nodes
+**Nodes**
 
 /turtlesim: Runs the turtlesim simulator
 
 /teleop_turtle: Listens to keyboard input and publishes velocity commands
 
-**Topics
+**Topics**
 
 /turtle1/cmd_vel: Published by /teleop_turtle, subscribed by /turtlesim
 
