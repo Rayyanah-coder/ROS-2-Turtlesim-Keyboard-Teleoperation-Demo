@@ -52,7 +52,7 @@ rqt_graph
 ---
 
 ## ROS 2 Graph Overview
-<img width="1541" height="586" alt="Image" src="https://github.com/user-attachments/assets/dce87602-2642-4ae7-badb-120200fdb165" />
+<img width="1041" height="186" alt="Image" src="https://github.com/user-attachments/assets/dce87602-2642-4ae7-badb-120200fdb165" />
 **Nodes**
 
 /turtlesim: Runs the turtlesim simulator
